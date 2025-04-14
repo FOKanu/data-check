@@ -11,8 +11,7 @@ def circle_area(radius):
     if radius < 0:
         return 0
     else:
-        circle_area = pi * (radius ** 2)
-        return circle_area
+        return pi * (radius ** 2)
 
 
 
