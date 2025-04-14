@@ -1,21 +1,16 @@
 """Dummy challenge for Kitt Demo"""
-# defining Pie
+# defining pi
 import math
-pi = math.pi
+PI = math.pi
 
 
 
 def circle_area(radius):
+    """Returns the area of the circle of given radius"""
 
-    #Scenario 1: radius is negative
+
+#Scenario 1: radius is negative
     if radius < 0:
         return 0
-    else:
-        return pi * (radius ** 2)
 
-
-
-
-
-    """Returns the area of the circle of given radius"""
-    pass  # YOUR CODE HERE
+    return PI * (radius ** 2)
